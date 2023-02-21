@@ -76,7 +76,7 @@ app.post('/update', async(req, res) => {
        res.json({"status":"Error"})
     }   
 })
-app.delete('/delete', async(req, res) => {
+app.post('/delete', async(req, res) => {
     
     let data;
     try {
